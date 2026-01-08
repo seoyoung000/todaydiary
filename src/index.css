@@ -1,0 +1,81 @@
+
+
+@font-face {
+  font-family: 'Ownglyph_ryuttung-Rg';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/Ownglyph_ryuttung-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+} /*웹폰트*/
+
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* display: flex; /* 제거 */
+  /* justify-content: center; /* 제거 */
+  /* align-items: center; /* 제거 */
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+  font-family: "Ownglyph_ryuttung-Rg";
+  font-size: 30px;
+  }
+.daily{
+  padding: 10px;
+  text-align: center;
+}
+
+.emotion {
+    text-align: center;
+    font-family: "Ownglyph_ryuttung-Rg";
+    font-size: 20px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Ownglyph_ryuttung-Rg";
+}
+
+.text textarea {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 400px;
+  height: 200px;
+}
+
+
+button { 
+  margin: 20px;
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    font-family: "Ownglyph_ryuttung-Rg";
+    font-size: 20px;
+}
+
