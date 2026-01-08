@@ -12,7 +12,7 @@ const Login = () => {
       const provider = new GoogleAuthProvider();
       await signInWithPopup(auth, provider);
       alert("구글 계정으로 로그인되었습니다!");
-      navigate('/reactproject/'); // 메인 화면으로 이동
+      navigate('/'); // 메인 화면으로 이동
     } catch (error) {
       console.error("구글 로그인 에러:", error);
       let errorMessage = "구글 로그인에 실패했습니다.";
