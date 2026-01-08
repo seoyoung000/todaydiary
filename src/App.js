@@ -117,7 +117,7 @@ function AppContent() {
     <div className="App">
       <div className="top-bar">
         <Link to="/reactproject/" style={{ textDecoration: 'none', color: 'black' }}>
-          <h2>오늘의 일기</h2>
+          <h2>일기장</h2>
         </Link>
         <div className="auth-buttons">
           {user ? (
