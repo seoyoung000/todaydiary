@@ -1,12 +1,13 @@
-# TodayDiary (오늘의 일기) 📔
+# 동양미래대학교 React 과제
 
-React와 Firebase를 활용한 개인 및 공유 일기장 서비스입니다.
+
+<img width="2040" height="1109" alt="image" src="https://github.com/user-attachments/assets/e3a5e6d1-a33d-4017-8814-8042839a26b1" />
 
 ## ✨ 주요 기능
-- **일기 작성 및 관리**: 오늘의 감정과 일상을 기록하고 저장합니다.
-- **Firebase 연동**: 실시간 데이터베이스를 통한 데이터 저장 및 인증 시스템 구축.
+- **일기 작성 및 관리**: 오늘의 감정과 일상을 글 및 그림으로 기록하고 저장합니다.
 - **친구와 일기 공유**: 작성한 일기를 친구들과 공유하고 함께 읽을 수 있습니다.
-- **마이페이지**: 개인 설정 및 본인의 활동을 확인할 수 있습니다.
+- **마이페이지**: 개인 설정 친구 목록을 확인할 수 있습니다.
+- **Firebase 연동**: 데이터베이스를 통해 계정과 기록을 저장합니다.
 
 ## 🛠 기술 스택
 - **Frontend**: React.js
@@ -14,15 +15,15 @@ React와 Firebase를 활용한 개인 및 공유 일기장 서비스입니다.
 - **Styling**: CSS (App.css, index.css)
 
 ## 🚀 시작하기
-1. 저장소를 클론합니다.
+1. 프로젝트 클론
    ```bash
    git clone https://github.com/seoyoung000/todaydiary.git
    ```
-2. 필요한 패키지를 설치합니다.
+2. 패키지를 설치
    ```bash
    npm install
    ```
-3. 어플리케이션을 실행합니다.
+3. 어플리케이션 실행
    ```bash
    npm start
    ```
