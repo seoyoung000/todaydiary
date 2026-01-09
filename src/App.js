@@ -116,7 +116,7 @@ function AppContent() {
   return (
     <div className="App">
       <div className="top-bar">
-        <Link to="/reactproject/" style={{ textDecoration: 'none', color: 'black' }}>
+        <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>
           <h2>일기장</h2>
         </Link>
         <div className="auth-buttons">
@@ -161,21 +161,21 @@ function AppContent() {
               </div>
 
               <div className='diary-type-buttons' style={{ marginBottom: '20px' }}>
-                <Link to="/reactproject/text-diary"><button>글 일기</button></Link>
-                <Link to="/reactproject/drawing-diary"><button>그림 일기</button></Link>
+                <Link to="/text-diary"><button>글 일기</button></Link>
+                <Link to="/drawing-diary"><button>그림 일기</button></Link>
               </div>
             </>
           )}
 
           <Routes>
-            <Route path="/reactproject/" element={
+            <Route path="/" element={
               !shouldHideControls ? (
                 <p style={{fontFamily: 'Ownglyph_ryuttung-Rg', fontSize: '20px'}}>
                   일기 유형을 선택하거나 왼쪽에서 지난 일기를 확인하세요.
                 </p>
               ) : null
             } />
-            <Route path="/reactproject/text-diary" element={
+            <Route path="/text-diary" element={
               <TextDiary 
                 textValue={textValue} 
                 handleTextChange={handleTextChange} 
@@ -185,7 +185,7 @@ function AppContent() {
                 visibility={visibility}
               />
             } />
-            <Route path="/reactproject/drawing-diary" element={
+            <Route path="/drawing-diary" element={
               <DrawingDiary 
                 handleSetValue={handleSetValue}
                 user={user}
